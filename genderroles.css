@@ -12,6 +12,36 @@ body{
     color: black;
    
 }
+.dropdown-menu{
+    border: 1px solid;
+    width: 100px;
+    padding-left: 20px;
+    height: 29px;
+    color: blue;
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+    border-radius: 5px;
+    
+  
+}
+.dropdowncontainer{
+    border: 1px solid;
+    width: 150px;
+    height: 29px;
+    background-color: blue;
+    position: absolute;
+    left: 11px;
+    border-radius: 5px;
+}
+.mySlides{
+    margin-left: 600px;
+    margin-top: 60px;
+}
+.dropdown{
+    display: flex;
+    gap: 2%;
+}
 
 #figure{
  
@@ -22,7 +52,7 @@ body{
     padding-left: 750px;
     color:black;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #image{
    
@@ -32,12 +62,12 @@ body{
 .header{
     text-align: center;
     font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #strength{
     padding-left: 300px;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #img{
     
@@ -45,41 +75,36 @@ body{
     width:600px; 
 }
 .hardworkers{
-    display: flex;
-    gap:4%;
-    padding-left: 260px;
+    
+    padding-left: 560px;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #content{
     padding-left: 450px;
-    color: black;
+  color: black;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #title{
     padding-left: 450px;
     color: black;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #text{
     padding-left: 450px;
     color: black;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #relationship{
     padding-left: 450px;
     color: black;
     font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:'Times New Roman', Times, serif ;
 }
-#recommendation{
-    padding-left: 550px;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 .figuringout{
     display: flex; 
     padding-left: 1px;
@@ -111,10 +136,19 @@ body{
 
 }
 .image3{
-    padding-top: 180px;
+    padding-top: 90px;
 }
 .footer{
     padding-top: 400px;
+}
+.scorablecontent{
+    overflow: scroll;
+    width: 1300px;
+    height: 1000px;
+    /* border: 1px solid; */
+    overflow-x: hidden;
+    padding-left: 170px;
+    padding-top: 100px;
 }
 .blogtitle{
     text-align: center;
@@ -152,7 +186,7 @@ body{
    background-color:bisque;
    font-size: medium;
    color: black;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Times New Roman', Times, serif;
 }
 .books ul{
     list-style-type: none;

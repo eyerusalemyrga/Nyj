@@ -13,28 +13,56 @@
             <div class="dropdown">
                 
                 <div class="dropdown-menu">
-               
-                  <a href="https://6813c183dfbc110008ff51cb--bitreviewclub.netlify.app/">Books</a>
-                 
-                </div>
+               <a href="https://6813c183dfbc110008ff51cb--bitreviewclub.netlify.app/">Group blog</a>
+                 </div>
+                 <div class="dropdowncontainer">
+                    <a href="https://6813c183dfbc110008ff51cb--bitreviewclub.netlify.app/">Blog</a>
+                 </div>
               </div>
                
 </header>
+<div class="slideshow-container">
 
-<div class="content">
-    <div class="scorableimage">
-      <img src="womeninworkimages/image copy 9.png" width="400" 
-      height="500" >  
+    <div class="mySlides">
+    
+      <img src="womeninworkimages/image copy 9.png" style="width:70%" height="600vh">
+       </div>
+    
+    <div class="mySlides">
+      <img src="womeninworkimages/image copy 11.png" style="width:70%" height="600vh">
     </div>
-   <div class="scorableimage3">
-        <img src="womeninworkimages/image copy 11.png" width="400" 
-        height="500" >
+    <div class="mySlides">
+      <img src="womeninworkimages/image copy 8.png" style="width:70%" height="600vh">
+     </div>
     </div>
-</div>
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); 
+        }
+        </script>
 
-
-
-<div class="scorablecontent"></div>
+<div class="scorablecontent">
     <p id="title">
         In the Trevor Noah book, Trevor Noah describes how 
         his mother, Patricia Noah, has
@@ -51,9 +79,8 @@
              Noah for the book Born in Crime. 
              I believe women should be given admiration for what
               they have done.
-        
-    </p>
-</div>
+         </p>
+
     <h1 id="gender">Women in relationship and work</h1>
     
     <p id="content">Today, no profession is meant to be only 
@@ -71,7 +98,7 @@
             <p id="oprahstory">American talk show host, television 
                 producer, actress, author, and media proprietor. <br>
                 She was the richest African-American of the 20th 
-                century and was once the world's only black billionaire.</p>
+                century and was once the world's <br>only black billionaire.</p>
         </div>
         <div class="image3">
             <img src="womeninworkimages/image copy 15.png"width="550" 
@@ -82,10 +109,7 @@
                 <br>sometimes known as the "mother of the civil rights movement."</p>
         </div>
     </div>
-   
-    
-</div>
-    <br><br>
+   <br><br>
     <p id="text">Women in the past were not allowed to work, 
         possess any property, or learn.
         The only thing they<br> could do was get married and give birth. 
@@ -114,29 +138,8 @@
              They want to get married to a 
              girl who can make time for her family. 
         </p>
-        <h1 id="recommendation">Recommended Products</h1>
-        <div class="figuringout">
-            
-            <div class="recomendedproduct">
-                <img src="womeninworkimages/image copy 16.png"width="570" 
-                height="500">
-                
-            </div>
-            <div class="advert">
-                <img src="womeninworkimages/image copy 17.png"width="570" 
-                height="500">
-                
-            </div>
-            <div class="advertisement">
-                <img src="womeninworkimages/image copy 18.png"width="570" 
-                height="500">
-                
-            </div>
-        </div>
-        <div class=""></div>
-        
-    
-   <footer class="footer">
+    </div>
+<footer class="footer">
         <div>
             <div class="books">
                 <ul>
